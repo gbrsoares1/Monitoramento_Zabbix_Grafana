@@ -12,20 +12,20 @@ Este projeto provisiona uma infraestrutura completa de monitoramento utilizando 
 ## Como executar o projeto
 
 1. Clone o repositório:
-\`\`\`bash
+```bash
 git clone https://github.com/gbrsoares1/Monitoramento_Zabbix_Grafana
-\`\`\`
+```
 
 2. Crie o arquivo de variáveis de ambiente a partir do exemplo:
-\`\`\`bash
+```bash
 cp .env.example .env
-\`\`\`
+```
 *Edite o arquivo `.env` com as suas senhas seguras.*
 
 3. Suba a infraestrutura:
-\`\`\`bash
+```bash
 docker compose up -d
-\`\`\`
+```
 
 ## Automação de Backup
 O projeto inclui um script `backup.sh` que realiza o dump do banco de dados MySQL de dentro do container, compacta os dados e gerencia a retenção (exclui backups com mais de 7 dias). Ideal para ser agendado no `crontab` do Linux.
