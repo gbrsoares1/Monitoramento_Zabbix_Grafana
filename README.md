@@ -13,7 +13,7 @@ Este projeto provisiona uma infraestrutura completa de monitoramento utilizando 
 
 1. Clone o repositório:
 \`\`\`bash
-git clone https://github.com/SEU_USUARIO/SEU_REPOSITORIO.git
+git clone https://github.com/gbrsoares1/Monitoramento_Zabbix_Grafana
 \`\`\`
 
 2. Crie o arquivo de variáveis de ambiente a partir do exemplo:
